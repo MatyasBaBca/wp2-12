@@ -15,7 +15,7 @@ a img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 </style>
@@ -40,11 +40,11 @@ switch ($increment) {
 
 ?>
 <div class="wrapper">
-<a href= "index.php?&increment=1&size1=<?= $size1; ?>&size2=<?= $size1; ?>">
+<a href= "index.php?&increment=1&size1=<?= $size1; ?>&size2=<?= $size2; ?>">
 <img src='MoneyBag.png' height="<?= $size1?> width=<?= $size1 ?>
 </a>
 
-<a href= "index.php?&increment=1&size1=<?= $size2; ?>&size2=<?= $size1; ?>">
+<a href= "index.php?&increment=2&size1=<?= $size1; ?>&size2=<?= $size2; ?>">
 <img src='MoneyBag.png' height="<?= $size2?> width=<?= $size2 ?>"/>
 </a>
 
